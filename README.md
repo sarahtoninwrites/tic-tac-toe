@@ -7,6 +7,7 @@
   <source src="tictactoe.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video></p>
+<a href="https://tic-tac-toe-gold-phi.vercel.app/">Give it a try!</a>
 
 <h2 id="features">Features</h2>
 <ul>
