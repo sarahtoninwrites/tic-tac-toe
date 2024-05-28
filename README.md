@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<h1>Tic-Tac-Toe</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>A classic Tic-Tac-Toe game built using React and styled with Tailwind CSS. This project includes options to play against another player or a computer with AI capabilities.</p>
 
-## Available Scripts
+<h2 id="demo">Demo</h2>
+<p><video width="600" controls>
+  <source src="tictactoe.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video></p>
+<a href="https://tic-tac-toe-gold-phi.vercel.app/">Give it a try!</a>
 
-In the project directory, you can run:
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>Two Player Mode:</strong> Play against another player.</li>
+  <li><strong>Computer Mode:</strong> Play against the computer with an AI that uses the Minimax algorithm.</li>
+  <li><strong>Responsive Design:</strong> Works well on both desktop and mobile devices.</li>
+  <li><strong>Tailwind CSS:</strong> Stylish and modern design with Tailwind CSS.</li>
+</ul>
 
-### `npm start`
+<h2 id="installation">Installation</h2>
+<p>To run this project locally, follow these steps:</p>
+<ol>
+  <li><strong>Clone the repository:</strong></li>
+  <pre><code>git clone https://github.com/sarahtoninwrites/tic-tac-toe.git
+cd tic-tac-toe</code></pre>
+  <li><strong>Install dependencies:</strong></li>
+  <pre><code>npm install</code></pre>
+  <li><strong>Start the development server:</strong></li>
+  <pre><code>npm start</code></pre>
+  <p>The app will be available at <code>http://localhost:3000</code>.</p>
+</ol>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 id="usage">Usage</h2>
+<ol>
+  <li><strong>Choose the game mode:</strong>
+    <ul>
+      <li><strong>Two Player:</strong> Both players take turns to play.</li>
+      <li><strong>Computer:</strong> Play against an AI-powered computer opponent.</li>
+    </ul>
+  </li>
+  <li><strong>Play the game:</strong>
+    <ul>
+      <li>Click on an empty square to place your mark (X or O).</li>
+      <li>The game will announce the winner or a draw when the game ends.</li>
+      <li>Click "Start Over" to reset the game and play again.</li>
+    </ul>
+  </li>
+</ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 id="ai-implementation">AI Implementation</h2>
+<p>The computer opponent uses the Minimax algorithm to determine the best move. The AI aims to either win the game or force a draw if winning is impossible.</p>
 
-### `npm test`
+<h2 id="contributing">Contributing</h2>
+<p>Contributions are welcome! Follow these steps to contribute:</p>
+<ol>
+  <li><strong>Fork the repository.</strong></li>
+  <li><strong>Create a new branch:</strong></li>
+  <pre><code>git checkout -b feature-name</code></pre>
+  <li><strong>Make your changes and commit them:</strong></li>
+  <pre><code>git commit -m 'Add some feature'</code></pre>
+  <li><strong>Push to the branch:</strong></li>
+  <pre><code>git push origin feature-name</code></pre>
+  <li><strong>Create a pull request.</strong></li>
+</ol>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2 id="acknowledgements">Stack</h2>
+<ul>
+  <li><a href="https://reactjs.org/">React</a> - A JavaScript library for building user interfaces.</li>
+  <li><a href="https://tailwindcss.com/">Tailwind CSS</a> - A utility-first CSS framework for rapid UI development.</li>
+  <li><a href="https://create-react-app.dev/">Create React App</a> - Set up a modern web app by running one command.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Minimax">Minimax Algorithm</a> - An algorithm used in decision making and game theory.</li>
+</ul>
